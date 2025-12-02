@@ -4,8 +4,9 @@ pipeline {
     stages {
         stage('Payment Feature Build') {
             steps {
-                echo "Building Payment Feature..."
+                echo "Building Payment Feature...1"
             }
         }
     }
+
 }
