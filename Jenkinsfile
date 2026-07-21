@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     stages {
-        stage('Payment Feature Build') {
+        stage('Login Feature Build') {
             steps {
-                echo "Building Payment Feature..."
+                echo "Building Login Feature..."
             }
         }
     }
